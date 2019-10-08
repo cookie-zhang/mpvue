@@ -1,0 +1,53 @@
+<template>
+  <div class="home-book">
+    <div class="home-book-header">1</div>
+    <div class="home-book-content">2</div>    
+    <div class="home-book-footer">3</div>
+  </div>
+</template>
+
+<script>
+import { HOME_BOOK_MODE } from '@/utils/const.js'
+export default {
+  props:{
+    title: String,
+    data:{
+      type: Array,
+      default: []
+    },
+    btnText: String,
+    row: {
+      type: Number,
+      default: 0
+    },
+    col:{
+      type: Number,
+      default: 0
+    },
+    mode:{
+      type: String,
+      default: HOME_BOOK_MODE.ROW
+    },
+    showTitle:{
+      type: Boolean,
+      default: true
+    },
+    showBtn:{
+      type: Boolean,
+      default: true
+    },
+    linearBg:{
+      type: Boolean,
+      default: false
+    }
+  },
+  methods:{
+    onMoreClick(){},
+    onBookClick(){}
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+  
+</style>
