@@ -1,0 +1,20 @@
+<template>
+  <div class="search-table-wraper">
+    <div class="search-">
+      <div></div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  props:{
+   
+  },
+  data(){
+    return{}
+  }
+}
+</script>
+<style lang="scss" scoped>
+  
+</style>
