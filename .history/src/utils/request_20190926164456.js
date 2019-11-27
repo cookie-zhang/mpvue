@@ -1,3 +1,0 @@
-function createFly () {
-    if(mpvuePlatforn === ''){}
-}
