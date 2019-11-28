@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/search/main"
+    "pages/search/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "前端小书架",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/dist/button/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-dialog": "vant-weapp/dist/dialog/index"
+  }
+  
+}
